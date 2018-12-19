@@ -9,23 +9,35 @@
 
 </head>
 <body>
-  <form class="dropdown-menu p-4">
-  <div class="form-group">
-    <label for="exampleDropdownFormEmail2">Email address</label>
-    <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+  <div class="container">
+  	<div class="row">
+  	<h2><strong>Bootstrap input show password value  By </strong> <a href="https://goo.gl/pR8ito" target="_blank">Nababur</a> <br/></h2><br/>
+  		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  			<!-- Start form -->
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                          <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Show password</button>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                      </form>
+
+
+  			<!-- End form -->
+  		</div>
+
+
+
+  	</div>
   </div>
-  <div class="form-group">
-    <label for="exampleDropdownFormPassword2">Password</label>
-    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-    <label class="form-check-label" for="dropdownCheck2">
-      Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
 
 </body>
 </html>
