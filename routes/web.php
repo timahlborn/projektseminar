@@ -22,3 +22,7 @@ Route::get('/testseite', function () {
 Route::get('/master', function () {
     return view('master');
 });
+
+Route::get('/login', function () {
+    return view('loginpage');
+});
