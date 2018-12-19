@@ -9,34 +9,31 @@
 
 </head>
 <body>
+  <br></br>
   <div class="container">
-  	<div class="row">
-  	<h2><strong>Bootstrap input show password value  By </strong> <a href="https://goo.gl/pR8ito" target="_blank">Nababur</a> <br/></h2><br/>
-  		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  			<!-- Start form -->
+
+      <div class="row justify-content-md-center">
+
+        <div class="col col-lg-5">
+          <h2><strong>Chatbot Login <br/></h2><br/>
                       <form>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <label for="exampleInputEmail1">Email Addresse</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eingeben">
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                          <label for="exampleInputPassword1">Passwort</label>
+                          <input type="password" class="form-control" name="password" id="password" placeholder="Passwort eingeben">
                         </div>
                         <div class="form-check">
-                          <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Show password</button>
-                          <button type="submit" class="btn btn-primary">Submit</button>
+                          <button class="btn btn-info" type="button" name="showpassword" id="showpassword" value="Show Password">Passwort zeigen</button>
+                          <button type="submit" class="btn btn-primary">Anmelden</button>
                         </div>
 
                       </form>
+</div>
+</div>
 
-
-  			<!-- End form -->
-  		</div>
-
-
-
-  	</div>
   </div>
 
 </body>
