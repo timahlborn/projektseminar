@@ -22,5 +22,16 @@
       </button>
     </nav>
   </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      ####CHATFENSTER####
+    </div>
+    <div class="col">
+      ####Kalender####
+    </div>
+  </div>
+
+</div>
 </body>
 </html>

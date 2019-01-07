@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('loginpage');
+    return view('welcome');
 });
 
 Route::get('/testseite', function () {
